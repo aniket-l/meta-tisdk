@@ -10,7 +10,7 @@ TARGET_IMAGES:remove = " \
 
 TARGET_IMAGES:append = " ${@oe.utils.conditional("TI_EXTRAS", "tie-jailhouse", "tisdk-jailhouse-image", "", d)}"
 
-TARGET_IMAGE_TYPES = "tar.xz wic.xz wic.bmap"
+TARGET_IMAGE_TYPES = "tar.xz"
 
 # Add packagegroup to deploy sources in SDK installer
 IMAGE_INSTALL:append = " \
