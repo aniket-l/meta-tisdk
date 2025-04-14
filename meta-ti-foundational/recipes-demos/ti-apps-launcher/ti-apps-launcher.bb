@@ -57,11 +57,11 @@ RDEPENDS:${PN}:remove:am62xxsip-evm = "seva-launcher"
 RDEPENDS:${PN}:append:am62xx = " powervr-graphics"
 RDEPENDS:${PN}:append:am62pxx = " powervr-graphics"
 
-BRANCH = "master"
-SRCREV = "918e886551b2c2968c6d62d5dd90d7e65de96f34"
+BRANCH = "jacinto-fixes"
+SRCREV = "c497f4bf4033751881a38dc465e14566ca2534b1"
 
 SRC_URI = " \
-    git://github.com/TexasInstruments/ti-apps-launcher.git;protocol=https;branch=${BRANCH} \
+    git://github.com/aniket-l/ti-apps-launcher.git;protocol=https;branch=${BRANCH} \
     file://ti-apps-launcher.service \
     file://ti-apps-launcher-eglfs.service \
     file://ti-demo.service \
